@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    padding: 5px;
+    height: 10vh;
+    width: 100vw;
+    background-color: gray;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+h1 {
+    justify-content: start;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;  
+    padding: 5px;
+}
+
+li {
+    justify-content: space-between;
+}
