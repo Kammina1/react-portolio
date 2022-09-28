@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
+import profilePic from './profile_pic.jpg';
 
 const About = () => {
   return (
     <div>
         <h2>About Me</h2>
-        <img></img>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, magnam ratione. Ut, quisquam nulla, nisi veritatis dolorum blanditiis voluptatem nemo maiores ad quaerat, aspernatur voluptates officiis vero perspiciatis officia molestias!</p>
+        <img className='pic' src={profilePic} alt="Profile Pic" />
+        <p>I grew up in Farmington, UT. I have a mixed educational background. I
+          graduated from Brigham Young University - Idaho in 2021 with a
+          Bachelors degree in Exercise Physiology. Upon graduating I developed
+          an interest in web development and have since been studying through an
+          online bootcamp ran through the University of Utah. I hope to finish
+          October of 2022.</p>
     </div>
   )
 }

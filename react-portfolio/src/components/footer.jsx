@@ -6,9 +6,9 @@ const Footer = () => {
     return (
         <div className="footer">
             <ul>
-                <li>gitHub</li>
-                <li>LinkedIn</li>
-                <li>Stack Overflow</li>
+                <Link to="/gitHub"><li>gitHub</li></Link>
+                <Link to="/LinkedIn"><li>LinkedIn</li></Link>
+                <Link to="/Stack Overflow"><li>Stack Overflow</li></Link>
             </ul>
         </div>
     )

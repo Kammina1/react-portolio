@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-function Contact() {
+const Contact = (props) => {
   const [inputs, setInputs] = useState({
     name: "",
     email: "",
@@ -13,6 +13,11 @@ function Contact() {
     email: "",
     message: "",
   });
+  
+  const handleSubmit = (e) => {
+    e.preventDfault();
+    console.log("Submitted!")
+  };
 
   const handleChange = (e) => {
     setInputs({
@@ -28,15 +33,15 @@ function Contact() {
   const validations = {
     name: {
       type: "minLength",
-      comp: 1,
+      comp: 0,
     },
     email: {
       type: "minLength",
-      comp: 1,
+      comp: 0,
     },
     message: {
       type: "minLength",
-      comp: 1,
+      comp: 0,
     },
   };
 
@@ -51,42 +56,43 @@ function Contact() {
     }
   };
 
-  const handleSubmit = (e) => {
-    e.preventDfault();
-    console.log("Submitted!")
-  };
-
   return (
-    <div>
+    <div className="parentDiv">
       <h1>Contact:</h1>
-      <form>
+      <form className="parentForm" onSubmit={handleSubmit}>
         <div>
-          <label>Name:</label>
           <input
+            className="input1"
+            placeholder="Name"
             type="text"
             name="name"
             onChange={handleChange}
             value={inputs.name}
+            required
           />
           {inputs.name && errors.name}
         </div>
         <div>
-          <label>Email:</label>
           <input
+            placeholder="Email"
+            className="input1"
             type="email"
             name="email"
             onChange={handleChange}
             value={inputs.email}
+            required
           />
           {inputs.email && errors.email}
         </div>
         <div>
-          <label>Message:</label>
           <input
+            className="input2"
+            placeholder="Feel free to leave a message here!"
             type="text"
             name="message"
             onChange={handleChange}
             value={inputs.message}
+            required
           />
           {inputs.message && errors.message}
         </div>
