@@ -5,6 +5,7 @@ import eComm from './ecommerce.png'
 import pw from './password.jpg'
 import quiz from './quiz.jpg'
 import weather from './weather.jpg'
+import proveIt from './proveIt.jpg'
 
 const portfolio = () => {
   return (
@@ -14,7 +15,7 @@ const portfolio = () => {
       </div>
       <div className="pc1">
         <a href='https://github.com/Sercanbrack/dnd-right-here'><img className ='portfolioPic' src={dnd} alt="DND Pic" /></a>
-        <a href='https://github.com/Kammina1/Note-Taking-App'><img className ='portfolioPic' src={noteTaker} alt="Notepad" /></a>
+        <a href='https://github.com/KStaySLC/Prove-It'><img className ='portfolioPic' src={proveIt} alt="Notepad" /></a>
       </div>
       <div className="pc1">
         <a href='https://github.com/Kammina1/ORM-E-Commerce'><img className ='portfolioPic' src={eComm} alt="ecommerce" /></a>
