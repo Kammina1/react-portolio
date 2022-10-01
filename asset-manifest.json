@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portolio/static/css/main.bd88db25.css",
+    "main.js": "/react-portolio/static/js/main.fa082d1a.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/profile_pic.jpg": "/react-portolio/static/media/profile_pic.f6b2c9e70b52233ad216.jpg",
+    "static/media/ecommerce.png": "/react-portolio/static/media/ecommerce.d2a7ded96a68a4d6f72b.png",
+    "static/media/dnd.jpg": "/react-portolio/static/media/dnd.507dec28e9b3c4195071.jpg",
+    "static/media/noteTaker.png": "/react-portolio/static/media/noteTaker.490a996e4bfc6b6dd324.png",
+    "static/media/password.jpg": "/react-portolio/static/media/password.91ac76ac062d93fca81c.jpg",
+    "static/media/weather.jpg": "/react-portolio/static/media/weather.7602782f4a0b75d28936.jpg",
+    "static/media/logo.svg": "/react-portolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-portolio/index.html",
+    "main.bd88db25.css.map": "/react-portolio/static/css/main.bd88db25.css.map",
+    "main.fa082d1a.js.map": "/react-portolio/static/js/main.fa082d1a.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd88db25.css",
+    "static/js/main.fa082d1a.js"
+  ]
+}
